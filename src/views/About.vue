@@ -1,6 +1,6 @@
 <template>
   <div class="about row container-fluid bg-image mx-0">
-    <div class="col-12 col-md-4 p-3 ml-5">
+    <div class="col-12 col-md-4 p-3 ml-md-5">
       <div class="card border shadow-lg bg-primary p-3">
         <div class="card text-center border shadow-lg bg-secondary p-4">
           <img

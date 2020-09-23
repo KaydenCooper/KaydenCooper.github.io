@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navbar />
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -19,6 +21,16 @@ export default {
 <style lang="scss">
 ::-webkit-scrollbar {
   display: none;
+}
+.fade-enter-active {
+  transition: opacity 0.8s ease-in;
+}
+.fade-leave-active {
+  transition: opacity 0.5s ease-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 @import "./assets/_variables.scss";
 @import "./assets/_bootswatch.scss";

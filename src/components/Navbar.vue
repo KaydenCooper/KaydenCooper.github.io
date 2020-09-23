@@ -30,10 +30,10 @@
           <router-link class="nav-link" :to="{name: 'photography'}">Photography</router-link>
         </li>
       </ul>
-      <i class="fa fa-phone-square fa-2x mx-2 text-light"></i>
-      <i class="fa fa-envelope-o fa-2x mx-2 text-light"></i>
-      <i class="fa fa-linkedin-square fa-2x mx-2 text-light"></i>
-      <i class="fa fa-github fa-2x mx-2 text-light"></i>
+      <i class="fa fa-phone-square fa-2x mx-2 text-light cursor"></i>
+      <i class="fa fa-envelope-o fa-2x mx-2 text-light cursor"></i>
+      <i class="fa fa-linkedin-square fa-2x mx-2 text-light cursor"></i>
+      <i class="fa fa-github fa-2x mx-2 text-light cursor"></i>
     </div>
   </nav>
 </template>
@@ -49,5 +49,8 @@ export default {
 <style scoped lang="scss">
 .shadow-lg {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.616) !important;
+}
+.cursor {
+  cursor: pointer;
 }
 </style>

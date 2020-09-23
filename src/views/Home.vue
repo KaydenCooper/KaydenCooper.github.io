@@ -1,38 +1,19 @@
 <template>
-  <div class="home row container-fluid mx-0 px-0">
-    <div class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="5000">
-          <img src="../assets/DSC00559-2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC01239.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC00585-2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC01251.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC00587-2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC00750-2.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item" data-interval="5000">
-          <img src="../assets/DSC00450-2.jpg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
+  <div class="home row container-fluid justify-content-center mx-0 px-0 bg-image text-light">
+    <div class="col-12 text-center mt-4">
+      <img class="img-fluid rounded size shadow-lg" src="../assets/profile.jpg" alt="Profile-Image" />
+      <h1 class="text-height text-shadow">KAYDEN COOPER</h1>
+      <p class="sub-height text-shadow">Software Developer & Photographer</p>
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from "../components/Navbar";
-
 export default {
   name: "Home",
+
+  methods: {},
   components: {
     Navbar,
   },
@@ -40,7 +21,32 @@ export default {
 </script>
 
 <style scoped>
-.carousel-fade,
+.size {
+  width: 15%;
+}
+.text-height {
+  font-size: 4.34375rem;
+}
+.sub-height {
+  font-size: 2.5rem;
+}
+.text-shadow {
+  text-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.616) !important;
+}
+@supports (-webkit-text-stroke: 1px black) {
+  .outline {
+    -webkit-text-stroke: 1.25px rgb(0, 0, 0);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .text-height {
+    font-size: 3rem;
+  }
+  .sub-height {
+    font-size: 1.5rem;
+  }
+}
+/* .carousel-fade,
 .carousel-inner,
 .item {
   transition-property: opacity;
@@ -64,8 +70,14 @@ export default {
 .active.right {
   left: 0;
   transform: translate3d(0, 0, 0);
+} */
+.bg-image {
+  background-image: url("../assets/DSC00750-2.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
-
 .height {
   height: 90vh;
 }

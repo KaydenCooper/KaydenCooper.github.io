@@ -5,7 +5,7 @@
         <div class="card text-center border shadow-lg bg-secondary p-4">
           <img
             class="img-fluid border rounded mx-auto width shadow-lg"
-            src="../assets/profile.jpg"
+            src="../assets/Home.jpg"
             alt="Image"
           />
           <!-- <span class="mt-2">

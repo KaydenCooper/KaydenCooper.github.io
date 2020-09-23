@@ -124,7 +124,7 @@ export default {
   box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.616) !important;
 }
 .border {
-  border: 2px solid #303030 !important;
+  border: 3px solid #303030 !important;
 }
 .bg-primary {
   background-color: #868686 !important;

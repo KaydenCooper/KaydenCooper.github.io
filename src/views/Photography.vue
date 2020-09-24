@@ -305,7 +305,14 @@ export default {
 }
 @media only screen and (max-width: 768px) {
   .width {
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+  }
+  .border {
+    border: none !important;
+  }
+  .shadow-lg {
+    box-shadow: none !important;
   }
 }
 </style>

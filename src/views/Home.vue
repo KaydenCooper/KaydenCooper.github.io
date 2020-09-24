@@ -1,7 +1,13 @@
 <template>
-  <div class="home row container-fluid justify-content-center mx-0 px-0 bg-image text-light">
+  <div
+    class="home row container-fluid justify-content-center mx-0 px-0 bg-image text-light"
+  >
     <div class="col-12 text-center mt-4">
-      <img class="img-fluid rounded size shadow-lg" src="../assets/profile.jpg" alt="Profile-Image" />
+      <img
+        class="img-fluid rounded size shadow-lg"
+        src="../assets/profile.jpg"
+        alt="Profile-Image"
+      />
       <h1 class="text-height text-shadow">KAYDEN COOPER</h1>
       <p class="sub-height text-shadow">Software Developer & Photographer</p>
     </div>
@@ -44,6 +50,9 @@ export default {
   }
   .sub-height {
     font-size: 1.5rem;
+  }
+  .size {
+    width: 75%;
   }
 }
 /* .carousel-fade,

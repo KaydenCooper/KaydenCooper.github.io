@@ -18,16 +18,24 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <router-link class="nav-link" :to="{name:'Home'}">Home</router-link>
+          <router-link class="nav-link" :to="{ name: 'Home' }"
+            >Home</router-link
+          >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" :to="{name: 'About'}">About</router-link>
+          <router-link class="nav-link" :to="{ name: 'About' }"
+            >About</router-link
+          >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" :to="{name: 'software-development'}">Software Development</router-link>
+          <router-link class="nav-link" :to="{ name: 'software-development' }"
+            >Software Development</router-link
+          >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" :to="{name: 'photography'}">Photography</router-link>
+          <router-link class="nav-link" :to="{ name: 'photography' }"
+            >Photography</router-link
+          >
         </li>
       </ul>
       <a
@@ -47,7 +55,10 @@
         aria-haspopup="true"
         aria-expanded="false"
       >
-        <div class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton">
+        <div
+          class="dropdown-menu bg-primary"
+          aria-labelledby="dropdownMenuButton"
+        >
           <a class="dropdown-item">
             <h5 class="text-light text-center">
               <u>Phone</u>
@@ -56,7 +67,7 @@
           </a>
         </div>
       </i>
-      <a href="https://www.linkedin.com/in/kayden-cooper-b28600a0" target="_blank">
+      <a href="https://www.linkedin.com/in/kaydencooper" target="_blank">
         <i class="fa fa-linkedin-square fa-2x mx-2 text-light cursor"></i>
       </a>
       <a href="https://github.com/KaydenCooper" target="_blank">
